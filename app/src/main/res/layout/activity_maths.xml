@@ -1,0 +1,152 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mathematics"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            />
+    </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:id="@+id/chapter_math"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/chap1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Chapter 1: Real Numbers"
+            android:textSize="20dp"
+            android:gravity="left"
+             />
+        <Button
+            android:id="@+id/chap2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Chapter 2: Polynomials"
+            android:textSize="20dp"
+            android:gravity="left"
+            />
+        <Button
+            android:id="@+id/chap3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Chapter 3"
+            android:textSize="20dp"
+            android:gravity="left"
+            />
+            <Button
+                android:id="@+id/chap4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Chapter 4"
+                android:textSize="20dp"
+                android:gravity="left"
+                />
+            <Button
+                android:id="@+id/chap5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Chapter 5"
+                android:textSize="20dp"
+                android:gravity="left"
+                />
+            <Button
+                android:id="@+id/chap6"
+                android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Chapter 6"
+            android:textSize="20dp"
+            android:gravity="left"
+            />
+            <Button
+                android:id="@+id/chap7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Chapter 7"
+                android:textSize="20dp"
+                android:gravity="left"
+                />
+            <Button
+                android:id="@+id/chap8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Chapter 8"
+                android:textSize="20dp"
+                android:gravity="left"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Chapter 9"
+                android:textSize="20dp"
+                android:gravity="left"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Chapter 10"
+                android:textSize="20dp"
+                android:gravity="left"
+                />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Chapter 11"
+            android:textSize="20dp"
+            android:gravity="left"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Chapter 12"
+            android:textSize="20dp"
+            android:gravity="left"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Chapter 13"
+            android:textSize="20dp"
+            android:gravity="left"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Chapter 14"
+            android:textSize="20dp"
+            android:gravity="left"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Chapter 15"
+            android:textSize="20dp"
+            android:gravity="left"
+            />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

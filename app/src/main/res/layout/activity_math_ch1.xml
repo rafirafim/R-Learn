@@ -1,0 +1,173 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor=" #ff3300"
+            android:text="Chapter I: Real Numbers"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            />
+    </LinearLayout>
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="14dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="9pt"
+                android:textColor=" #ff3300"
+                android:text="Topics in this chapter"
+                android:textSize="22dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="➤Euclid's Division Lemma"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="➤Euclid's Division Algorithm"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="➤Fundamental Theorem Of Arithmetic"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="➤Revisting Irrational Numbers"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="➤ Revisiting Rational Numbers And Their Decimal Expansion"
+                android:textSize="18dp" />
+</LinearLayout>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+<!--            Euclid's Division Lemma Start-->
+            <TextView
+                android:layout_width="449dp"
+                android:layout_height="wrap_content"
+                android:padding="9pt"
+                android:text="Euclid's Division Lemma"
+                android:textColor=" #ff3300"
+                android:textSize="22dp"
+                android:textStyle="normal" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:textSize="18dp"
+    android:text="According to Euclid’s Division Lemma if we have two positive integers a and b,
+     then there exist unique integers q and r which satisfies the condition a = bq + r where 0 ≤ r ≤ b.
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="a →  Dividend"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="b →  Divisor"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="q →  Quotient"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="r →  Reminder"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:text=" Example :\n Dividing 25 by 4, we get quotient as 6 and reminder as 1. \nThen we can write
+                \n\t\t\t\t\t\t\t\t\t\t\ 25 = 4 X 6 + 1"/>
+        </LinearLayout>
+<!--            Euclid's Division Lemma End-->
+<!--            Euclid's Division Algorithm Start-->
+            <TextView
+                android:layout_width="449dp"
+                android:layout_height="wrap_content"
+                android:padding="9pt"
+                android:text="Euclid's Division Algorithm"
+                android:textColor=" #ff3300"
+                android:textSize="22dp"
+                android:textStyle="normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:text="The basis of the Euclidean division algorithm is Euclid’s division lemma.To calculate the Highest Common Factor (HCF) of two positive integers a and b we use Euclid’s division algorithm.\n HCF is the largest number which exactly divides two or more positive integers.By exactly we mean that on dividing both the integers a and b the remainder is zero."/>
+"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:text="To obtain the HCF of two positive integers, say c and d , with c > d, we follow thees steps. "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:text="To obtain the HCF of two positive integers, say c and d , with c > d, we follow thees steps. "/>
+<!--            Euclid's Division Algorithm ends-->
+                  </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
