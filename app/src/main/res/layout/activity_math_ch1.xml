@@ -1,4 +1,6 @@
-<LinearLayout android:layout_width="match_parent"
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android" >
@@ -79,65 +81,80 @@
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="14dp"/>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            >
-<!--            Euclid's Division Lemma Start-->
-            <TextView
-                android:layout_width="449dp"
-                android:layout_height="wrap_content"
-                android:padding="9pt"
-                android:text="Euclid's Division Lemma"
-                android:textColor=" #ff3300"
-                android:textSize="22dp"
-                android:textStyle="normal" />
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginLeft="20dp"
-    android:textSize="18dp"
-    android:text="According to Euclid’s Division Lemma if we have two positive integers a and b,
-     then there exist unique integers q and r which satisfies the condition a = bq + r where 0 ≤ r ≤ b.
-"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="45dp"
-                android:text="a →  Dividend"
-                android:textSize="18dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="45dp"
-                android:text="b →  Divisor"
-                android:textSize="18dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="45dp"
-                android:text="q →  Quotient"
-                android:textSize="18dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="45dp"
-                android:text="r →  Reminder"
-                android:textSize="18dp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:textSize="18dp"
-                android:text=" Example :\n Dividing 25 by 4, we get quotient as 6 and reminder as 1. \nThen we can write
-                \n\t\t\t\t\t\t\t\t\t\t\ 25 = 4 X 6 + 1"/>
-        </LinearLayout>
-<!--            Euclid's Division Lemma End-->
+                android:padding="9pt"
+                android:textColor=" #ff3300"
+                android:text="1.1 INTRODUCTION"
+                android:textSize="22dp"
+                android:textStyle="normal" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14dp"/>
+            <!--            Euclid's Division Lemma End-->
 <!--            Euclid's Division Algorithm Start-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!--            Euclid's Division Lemma Start-->
+                <TextView
+                    android:layout_width="449dp"
+                    android:layout_height="wrap_content"
+                    android:padding="9pt"
+                    android:text="Euclid's Division Lemma"
+                    android:textColor=" #ff3300"
+                    android:textSize="22dp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="According to Euclid’s Division Lemma if we have two positive integers a and b,
+         then there exist unique integers q and r which satisfies the condition a = bq + r where 0 ≤ r ≤ b.
+    "
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:text="a →  Dividend"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:text="b →  Divisor"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:text="q →  Quotient"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:text="r →  Reminder"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text=" Example :\n Dividing 25 by 4, we get quotient as 6 and reminder as 1. \nThen we can write
+                    \n\t\t\t\t\t\t\t\t\t\t\ 25 = 4 X 6 + 1"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
             <TextView
                 android:layout_width="449dp"
                 android:layout_height="wrap_content"
@@ -158,16 +175,56 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:textSize="18dp"
-                android:text="To obtain the HCF of two positive integers, say c and d , with c > d, we follow thees steps. "/>
+                android:text="\nTo obtain the HCF of two positive integers, say c and d , with c > d, we follow thees steps. "/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:textSize="18dp"
-                android:text="To obtain the HCF of two positive integers, say c and d , with c > d, we follow thees steps. "/>
+                android:layout_marginLeft="22dp"
+                android:text="▶ Apply Euclid’s division lemma, to c and d. So, we find whole numbers, q and
+r such that \n\t\t\t c = dq + r where 0 ≤ r ≤ b"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:text="▶ If r = 0, d is the HCF of c and d. If r ¹ 0, apply the division lemma to d and r."
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:text="▶ Continue the process till the remainder is zero. The divisor at this stage will
+be the required HCF."
+                android:textSize="18dp" />
 <!--            Euclid's Division Algorithm ends-->
-                  </LinearLayout>
-    </ScrollView>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                android:background="#888888"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center">
 
+    <Button
+        android:id="@+id/em1_1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="#13bd38"
+        android:layout_margin="5dp"
+        android:text="Examples"/>
+    <Button
+        android:id="@+id/ex1_1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="#13bd38"
+        android:layout_margin="5dp"
+        android:text="Excercise 1.1"/>
+</LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

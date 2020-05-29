@@ -1,0 +1,144 @@
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor=" #ff3300"
+            android:text="EXAMPLES"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            />
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="14dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+<!--            em1-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor=" #ff3300"
+                android:text="Example 1"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Use Euclid’s algorithm to find the HCF of 4052 and 12576."
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor=" #ff3300"
+                android:text="Solution"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Since 12576 > 4052 , we apply the division lemma to 12576 and 4052 , to get \n\t\t\t\t\t\t\t\t\t\t\t\   12576 = 4052 × 3 + 420
+\n Since the remainder 420 ≠ 0 , to get \n                       4052 = 420 × 9 + 272 \n                         420 = 272 × 1 + 148 \n                         272 = 148 × 1 + 124 \n                         148 = 124 × 1 + 24 \n                         124 = 24 × 5 + 4 \n                            24 = 4 × 6 + 0 \n The remainder has now become zero, so our procedure stops. Since the divisor at this
+stage is 4, the HCF of 12576 and 4052 is 4.\n\n Notice that 4 = HCF (24, 4) = HCF (124, 24) = HCF (148, 124) =
+HCF (272, 148) = HCF (420, 272) = HCF (4052, 420) = HCF (12576, 4052)."
+                android:textSize="18dp" />
+<!--em2-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor=" #ff3300"
+                android:text="Example 2"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Show that every positive even integer is of the form 2q, and that every
+positive odd integer is of the form 2q + 1, where q is some integer."
+                android:textSize="18dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor=" #ff3300"
+                android:text="Solution"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Let a be any positive integer and b = 2.\n  Then, by Euclid’s algorithm, a=2q+r, for some integer q≥0 , and r = 0 or r = 1 , because . So a=2q or a=2q+1 . "
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="If a is of the form 2q, then a is an even integer. Also, a positive integer can be
+either even or odd. Therefore, any positive odd integer is of the form 2q + 1 "
+                android:textSize="18dp" />
+            <!--            em3-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor=" #ff3300"
+                android:text="Example 3"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Show that any positive odd integer is of the form 4q + 1 or 4q + 3, where q is some integer."
+                android:textSize="18dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="14dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor=" #ff3300"
+                android:text="Solution"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Let us start with taking a, where a is a positive odd integer. We apply the division algorithm with a and b = 4.
+\n Since  "
+                android:textSize="18dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
