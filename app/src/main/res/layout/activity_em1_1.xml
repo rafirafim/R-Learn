@@ -135,7 +135,7 @@ either even or odd. Therefore, any positive odd integer is of the form 2q + 1 "
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:text="Let us start with taking a, where a is a positive odd integer. We apply the division algorithm with a and b = 4.
-\n Since  "
+\n Since 0<r<4 and. "
                 android:textSize="18dp" />
 
         </LinearLayout>
